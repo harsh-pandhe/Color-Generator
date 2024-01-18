@@ -28,8 +28,11 @@ Dive into the vibrant world of colors with the Color Generator—a delightful we
 
    Unleash your inner artist! Explore the color generator by generating random palettes or searching for specific colors. The canvas is yours to paint.
 
-## 🎨 Dependencies
+## 🎨 Technologies Used
 
+- **HTML5:** The structure of the Color Generator.
+- **CSS3:** Styling and layout of the web application.
+- **JavaScript:** The magic behind color generation, search functionality, and clipboard interactions.
 - **[Tinycolor](https://github.com/bgrins/TinyColor):** A magical library for fast and vibrant color manipulations.
 
 ## 🌟 Credits
@@ -61,3 +64,10 @@ Meet the Sorcerer of Colors:
 
 - *Color Info Panel*
 ![Color Generator Screenshot 5](/images/img_05.jpeg)
+
+## 📋 Requirements
+
+- Web browser with JavaScript enabled.
+- Git for cloning the repository.
+
+Ensure you have these requirements to experience the enchanting world of colors with the Color Generator.
