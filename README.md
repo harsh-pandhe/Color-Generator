@@ -47,17 +47,17 @@ Meet the Sorcerer of Colors:
 
 ## 🖼️ Screenshots
 
-![Color Generator Screenshot 1](/images/img_01.jpeg)
 - *Color Generator Interface*
+![Color Generator Screenshot 1](/images/img_01.jpeg)
 
-![Color Generator Screenshot 2](/images/img_02.jpeg)
 - *Colors Randomly Generated*
+![Color Generator Screenshot 2](/images/img_02.jpeg)
 
-![Color Generator Screenshot 3](/images/img_03.jpeg)
 - *Colors Copied to Clipboard*
+![Color Generator Screenshot 3](/images/img_03.jpeg)
 
-![Color Generator Screenshot 4](/images/img_04.jpeg)
 - *Colors Searched*
+![Color Generator Screenshot 4](/images/img_04.jpeg)
 
-![Color Generator Screenshot 5](/images/img_05.jpeg)
 - *Color Info Panel*
+![Color Generator Screenshot 5](/images/img_05.jpeg)
