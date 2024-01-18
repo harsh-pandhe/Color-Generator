@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Color Generator</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search color...">
+            <button id="search-btn">Search</button>
+        </div>
+    </nav>
+    <div class="color-container">
+        <div class="controls">
+            <button id="generate-btn">Generate Colors</button>
+            <p id="copied-text"></p>
+        </div>
+        <div id="color-box" class="card-container"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.1/tinycolor.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

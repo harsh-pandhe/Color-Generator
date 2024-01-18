@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+  font-family: "Lemon", serif;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 200px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#search-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+#search-btn:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .search-container {
+    margin-top: 10px;
+  }
+
+  #search-input {
+    width: 100%;
+  }
+}
+
+.color-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#generate-btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+#generate-btn:hover {
+  background-color: #45a049;
+}
+
+#color-box {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.card span {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.color-card {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.color-box {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+.color-name,
+.color-hex {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
+
+#copied-text {
+  margin-top: 10px;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .color-box {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.color-info p {
+  margin: 10px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-info .color-box {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.color-info p .color-box {
+  margin: 0;
+}
+
+.color-info .color-box:hover {
+  transform: scale(1.1);
+}
