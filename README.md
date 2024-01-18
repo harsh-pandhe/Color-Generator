@@ -38,7 +38,7 @@ The Color Generator is a simple web application that allows users to generate ra
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE) (c) 2024 Harsh Pandhe.
+This project is licensed under the [MIT License](LICENSE.md) (c) 2024 Harsh Pandhe.
 
 ## Author
 
