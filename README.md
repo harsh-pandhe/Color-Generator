@@ -17,7 +17,7 @@ Dive into the vibrant world of colors with the Color Generator—a delightful we
 1. **Clone or Download the Repository:**
 
    ```bash
-   git clone https://github.com/harsh-pandhe/color-generator.git
+   git clone https://github.com/harsh-pandhe/Color-Generator.git
    ```
 
 2. **Open the Magic Portal:**
