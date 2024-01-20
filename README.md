@@ -41,7 +41,7 @@ Dive into the vibrant world of colors with the Color Generator—a delightful we
 
 ## 📜 License
 
-This magical project is licensed under the [MIT License](LICENSE.md) (c) 2024 Harsh Pandhe. Feel free to wield its powers responsibly!
+This magical project is licensed under the [MIT License](LICENSE) (c) 2024 Harsh Pandhe. Feel free to wield its powers responsibly!
 
 ## 👨‍🎨 Author
 
